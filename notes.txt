@@ -1,0 +1,150 @@
+2nd Feb 2026
+==============
+
+    -> Manual Testing 
+
+        -> Software Testing 
+
+            -> Application Lifecycle / SDLC (Software Development Life Cycle)
+
+                -> Requirement Gathering & Analysis 
+
+                -> Design 
+
+                -> Code Implementation  
+
+                -> Build 
+
+                -> TEST (*)
+
+                -> Deployment  
+
+            -> Software Testing  
+
+                -> Process of evaluating Software Application to ensure Application
+                Works Correctly and Meets the Requirement
+
+                -> This Process Involves 
+
+                    -> Various tests to detect any defects or errors
+
+                    -> Ensuring its quality before it's released to end users.
+
+    -> Importance Of Testing
+
+        -> There have been "several instances" where "inadequate software testing" has led to 
+        significant consequences 
+
+        -> Therac-25 Radiation Therapy Machine 
+
+            -> In 1980's Therac-25, a radiation therapy machine, was involved in 
+            several accidents due to a software bug.
+
+            -> The bug caused the machine to deliver massive overdoses of radiation to patients, 
+            leading to injuries and deaths.
+
+            -> Human Life Was a cost 
+
+        -> Mars Climate Orbiter
+
+            -> In 1999, NASA's Mars Climate Orbiter mission failed due to a software error.
+
+            -> This mistake cost NASA approximately $125 million (1000 Crores )
+
+            -> https://en.wikipedia.org/wiki/Mars_Climate_Orbiter
+
+            -> Money Life Was a cost 
+
+    -> NOTE: As you can see, software bugs can create a serious problem, 
+    in terms of money, time & lives.
+
+    
+    -> Software Testing Concepts 
+
+        -> What is Software 
+
+        -> Types Of Softwares
+
+        -> SDLC (Software Development Life Cycle)
+
+        -> What Is Quality ? 
+        
+        -> What are Bugs ? 
+
+        -> What are Errors ? 
+
+        -> What are Test Cases ? 
+
+        -> What are Different Types Of Testing We Conduct ? 
+
+        -> STLC (Software "TESTING" Life Cycle)
+
+    -> Any Company / Organization 
+
+        -> Has Three Primary Components 
+
+            -> People 
+
+            -> Product 
+
+            -> Process 
+
+    
+    -> What is Software ? 
+
+        -> Collection Of Computer Programs, which helps users to perform certain tasks
+
+        -> Developers will write Different types of Programs based on Requirements 
+
+        -> Types Of Softwares 
+
+            -> System Softwares  
+
+            -> Programming Softwares 
+
+            -> Application Softwares 
+
+    -> System Softwares 
+
+        -> Softwares which are used to run other types of softwares 
+
+            -> Example: Operating System (Win, Linux, Unix)
+
+            -> Examples: Driver Softwares 
+
+                -> Mouse Driver Software 
+
+                -> Graphics Driver Software (Nvidia)
+
+            -> NOTE: Without Having System Softwares, we cannot use 
+            any Programming Softwares & Application Softwares 
+        
+
+    -> Programming Softwares
+
+        -> Programming Software means Compilers, Debuggers, Interpreters, 
+        IDE's(Integrated Development Environments), these are all Programming Software
+        used while developing programs.
+
+        -> Compilers: 
+            -> Developers Write Source Code (Human Readable Code)
+            -> https://github.com/ravi2krishna/login-2516/blob/main/index.html
+            -> Compilers will convert Source Code Into An Intermediate Language called as 
+            Byte Code 
+        -> Interpreters: 
+            -> Build Process Converts Byte Code To Machine Readable Code 
+            -> We use Interpreters to Translate and Execute Machine Readable Code
+            -> https://programming604494160.wordpress.com/wp-content/uploads/2020/06/execution_of_java_program-e1593172039858.jpg
+            -> javac is compiler (java compiler)
+            -> java is interpreter (jvm)
+        -> Debuggers: 
+            -> Softwares to Debug Programs, Step by Step to identify the Behavior of Program 
+            -> Debuggers helps in identifying Root Cause Problems 
+        -> IDE's: 
+            -> Used to Write Code, they have code editors, version control(code tracking),
+            auto code completion etc 
+        -> etc 
+
+
+
+
