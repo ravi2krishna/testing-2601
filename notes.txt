@@ -146,5 +146,102 @@
         -> etc 
 
 
+3rd Feb 2026
+==============
+
+    -> Application Softwares 
+
+        -> Application Software is a type of Software that Enables End Users to 
+        perform particular tasks like Writing Documents, Browsing Internet etc 
+
+        -> Microsoft Word 
+        -> Chrome 
+        -> Firefox 
+        -> etc 
+
+    -> NOTE: Using Programming Softwares, We Build Application Softwares
+
+    -> System Software: For Hardware Usage 
+    -> Programming Softwares: Developer Focused 
+    -> Application Softwares: User Focused 
 
 
+    -> SDLC 
+
+        -> The Software Development Life Cycle (SDLC) is a "process" followed by 
+        software development teams to design, develop, test, deploy and maintain 
+        software applications.
+
+        -> SDLC Phases 
+
+            -> Requirement Gathering & Analysis 
+
+                -> In this Phase, the project team identifies and gathers all the 
+                Requirements for LMS Application.
+
+                -> Above Phase Includes 
+
+                    -> Understanding Needs Of Users 
+                    -> Features & Functionalities 
+                    -> Any Constraints and Limitations 
+
+                -> Roles: BA 
+
+                    -> Work: https://docs.google.com/document/d/1ZiOVBYxyeBC-1ZoIgZycsoIIxTVvWy8Q/edit?usp=sharing&ouid=108418800140662749555&rtpof=true&sd=true
+            
+            -> Design 
+
+                -> One Requirements are Clear 
+
+                -> Design Phase begins 
+
+                    -> Architecture Will Be Decided 
+
+                    -> Overall Structure Of LMS App 
+
+                    -> Modules & Components Of LMS 
+
+                    -> User Interface / User Experience 
+
+                    -> Database Schema Design 
+
+                -> Roles: Software Architects   
+
+                    -> Work: https://www.researchgate.net/profile/Maria-Morales-Rodriguez/publication/270904751/figure/fig1/AS:295101432647697@1447369072607/Architecture-of-an-Intelligent-Learning-Management-System.png
+
+                    -> Work: https://www.researchgate.net/profile/Elise-Lavoue/publication/317507239/figure/fig1/AS:796616361521152@1566939549208/General-architecture-of-a-Project-Based-Learning-Management-System.png
+
+
+            -> Implementation / Code 
+
+                -> Implementation phase Involves Actual Coding Of LMS App 
+                based on System Design
+
+                -> Develop Code For Each Module & Components, meeting the System Design   
+
+                -> Roles: Software Developers & Software Engineers
+
+                    -> Work: https://github.com/ravi2krishna/lms-v1/tree/main/webapp/src/pages 
+
+            
+            -> Testing (*)
+
+                -> Testing is Crucial Phase for QA Teams 
+
+                -> Ensure Quality and Correctness Of LMS Application 
+
+                -> Different Types Of Testing 
+
+                    -> Unit Testing 
+                    -> Integration Testing 
+                    -> White Box Testing
+                    -> API Testing 
+                    -> Performance Testing 
+                    -> etc 
+
+                -> NOTE: Testing is performed and evaluated based on Requirements taken 
+
+                -> Roles: Software Tester & Automation Testers 
+
+                    -> Work: https://drive.google.com/file/d/1-pk-93tW5Vwi0lal73wL8ZAKQ5Bm5zbJ/view?usp=sharing
+            
