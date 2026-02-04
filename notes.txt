@@ -245,3 +245,187 @@
 
                     -> Work: https://drive.google.com/file/d/1-pk-93tW5Vwi0lal73wL8ZAKQ5Bm5zbJ/view?usp=sharing
             
+
+4th Feb 2026
+==============
+
+    -> Deployment Phase 
+
+        -> Making Applications Available on Servers / Environments 
+
+        -> Once LMS Application passes all the testing Phases 
+
+            -> We Determine LMS Application is Stable and Production Ready 
+
+        -> Then We Deploy the LMS Application to Live / Production Environment,
+        where end users can access and use application
+
+        -> Roles: DevOps Engineers 
+
+            -> Work: https://miro.medium.com/v2/1*pbmStkvxVVYgFUqrEgWhkQ.gif 
+            -> Work: https://github.com/ravi2krishna/lms/blob/main/Jenkinsfile
+
+    
+    
+    -> Maintenance & Support Phase 
+
+        -> After Deployment, the LMS Application enters Maintenance Phase
+
+        -> Here On-going Support is provided for issues 
+
+            -> Bugs reported by user 
+                -> Developers will fix the issue with code 
+                -> Testers will start testing bug fix 
+                -> DevOps Engineer will re-deploy the bug fixed in new iteration / version 
+
+        -> Roles: Support Engineers - Developer - Tester - DevOps Engineer  
+
+
+    -> NOTE: The Software Development Life Cycle (SDLC) is a "process",
+    How to Implement SDLC ? 
+
+    
+    -> SDLC Models 
+
+        -> Waterfall Model 
+
+        -> V Model 
+
+        -> Agile Model (Latest & Widely Adopted)
+
+
+    -> Waterfall Model (1970's)
+
+        -> Software Industry initially began with Waterfall Model
+
+        -> It's also called as Liner or Sequential Model 
+
+        -> It's called Waterfall, because the progress flows Downwards like a waterfall 
+
+            -> https://iso.500px.com/wp-content/uploads/2015/03/Fairy-falls1500px.jpg
+
+            -> https://media.licdn.com/dms/image/v2/D5612AQEWHYW-hDWlog/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1710138974843?e=2147483647&v=beta&t=lIGnYSv1MUWJRUW38M0qaDnSqu9WWYPENj_OiwO1Shw
+
+    -> Waterfall Advantages 
+
+        -> Simplicity: The straightforward nature of the Waterfall model makes it 
+        easy to understand and use.
+
+        -> Structured Approach: Clearly defined stages and milestones provide a 
+        structured approach to development.
+
+    -> Waterfall Disadvantages 
+
+        -> Inflexibility: The model is rigid and doesn't accommodate changes well 
+        once a phase is completed.
+
+        -> Late Testing:  Testing is done at the end of the development process, 
+        which can lead to discovering significant issues late in the project.
+
+        -> No working software is available until the final stages of the lifecycle.
+
+
+    -> When Should We Prefer Waterfall Model 
+
+        -> Requirements should not be changed 
+            -> Requirement always should be freezed 
+
+        -> For Smaller Projects 
+
+        -> Less Budget Projects 
+
+
+    -> V Model (1990's)
+
+        -> V model is known as Verification and Validation Model 
+
+        -> Extension Of Waterfall Model 
+
+        -> Pairing each development phase with a corresponding, parallel testing phase.
+
+        -> It forms a "V" shape, with the left side focused on verification (static analysis) 
+        and the right on validation (dynamic testing), 
+        ensuring high quality through early test planning. 
+
+        -> Main Advantage Of V Model is in every phase we have testing 
+
+        -> System Design: Constructing the overall system architecture.
+            -> LMS Application Architecture
+        
+        -> High-Level Design: Defining functional modules and components.
+            -> LMS Student Module 
+            -> LMS Trainer Module 
+            -> LMS Admin Module 
+            -> LMS Courses Module 
+            -> LMS Exam Module 
+        
+        -> Low-Level Design: Detailed design for individual components.
+            -> LMS Student Module (High-Level)
+                -> Student Login 
+                -> Student Profile  
+                -> Student Courses
+                    -> Student Courses List 
+                    -> Student Courses Buy 
+                -> Student Logout  
+
+        -> https://miro.medium.com/v2/1*1_y1njK_-OW_Sqv1cKlDcg.png
+
+
+    -> Verification (Left Side - Designing):
+        -> Requirements Analysis: Defining customer needs.
+        -> System Design: Constructing the overall system architecture.
+        -> High-Level Design: Defining functional modules and components.
+        -> Low-Level Design: Detailed design for individual components.
+        
+    -> Coding: The actual development phase.
+   
+    -> Validation (Right Side - Testing):
+        -> Unit Testing: Testing individual components.
+        -> Integration Testing: Testing combined components.
+        -> System Testing: Testing the entire system.
+        -> User Acceptance Testing (UAT): Verifying final requirements with users.
+
+    -> Advantages OF V Model
+
+        -> High Quality: Early test planning catches defects early.
+        -> Disciplined: Strict, phased, and well-documented process.
+        -> Suitable for Small Projects: Works well where requirements are fixed and clear. 
+
+    -> Disadvantages OF V Model
+
+        -> Rigid: Difficult to handle changes once the project starts.
+        -> Late Functionality: Working software is not produced until late in the cycle.
+        -> High Risk: Not suitable for complex or long-term projects with changing requirements. 
+
+
+    -> Agile Model (2001)
+
+        -> The Agile model is an "iterative" and "incremental" software development approach 
+        focusing on flexibility, collaboration, and rapid delivery of functional components.
+
+        -> By breaking projects into small, time-boxed iterations (sprints), 
+        it enables frequent customer feedback, continuous improvement, and 
+        adaptation to changing requirements. 
+        
+        -> Agile prioritizes working software over comprehensive documentation. 
+
+        -> Agile Characteristics and Principles
+        
+            -> Iterative & Incremental: Software is developed in small, functional, and incremental releases (usually 2–4 week sprints).
+            -> Customer Collaboration: Continuous feedback ensures the product meets evolving needs.
+            -> Flexibility: Embraces changing requirements, even late in development.
+            -> Self-Organizing Teams: Empowered teams manage their own work, fostering productivity and technical excellence.
+            -> Reduced Documentation: Focuses on code over documentation
+
+        -> Advantages: 
+
+            -> High customer satisfaction, fast, high-quality, adaptable, and allows for changes.
+
+        -> Disadvantages: 
+
+            -> Minimal documentation makes maintenance difficult, high dependency on client interaction,
+
+        -> Common Agile Frameworks 
+            -> Scrum: Focuses on fixed-length iterations called sprints.(*)
+            -> Kanban: Focuses on continuous delivery and workflow visualization.
+
