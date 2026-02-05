@@ -429,3 +429,161 @@
             -> Scrum: Focuses on fixed-length iterations called sprints.(*)
             -> Kanban: Focuses on continuous delivery and workflow visualization.
 
+
+5th Feb 2026
+==============
+
+    -> Agile Model 
+
+        -> Agile Model is Development Centric / Focused 
+
+
+
+Application / Myntra (Ecommerce)
+
+    -> Agile 
+
+        -> v1: Requirement -> Code -> Test -> Deploy 
+
+            -> Agile Development (Frequent Tests are Done, but not deployments)
+
+                -> Requirement -> Code -> Test
+                -> Requirement -> Code -> Test
+                -> Requirement -> Code -> Test
+                -> Deploy  
+
+        -> v2: Requirement -> Code -> Test -> Deploy 
+
+        -> v3: Requirement -> Code -> Test -> Deploy 
+
+    
+    -> DevOps (Agile Operations) - 2016 
+
+        -> Agile Operating (Frequent Deployments are Done)
+
+                -> Requirement -> Code -> Test -> Deploy  
+                -> Requirement -> Code -> Test -> Deploy  
+                -> Requirement -> Code -> Test -> Deploy   
+
+            -> New Tools & Technologies 
+
+                -> Docker (Faster)
+                -> Kubernetes (Stable 24/7 Operational Uptime)
+                -> CI/CD Tools (ArgoCD, GitHub Actions, Azure DevOps)
+                
+    -> Popular Project Management Tools 
+
+        -> JIRA (Proprietary)
+        -> Azure DevOps (SAAS) (Free with limited capacity)
+        -> GitHub Projects (Free)
+
+        -> Implementation
+
+            -> https://drive.google.com/file/d/1JkqXFi37bRlmIqHM4QCmMinwQ8ug4wKj/view?usp=sharing
+
+
+    -> QA (Quality Assurance) vs QC (Quality Control)
+
+        -> Quality Assurance
+
+            -> QA refers to the systematic "process" of ensuring that the product meets 
+            specified requirements and standards throughout its development lifecycle.
+
+            -> QA activities include process audits, defining quality standards, and 
+            implementing best practices to improve overall quality. 
+
+        -> Quality Control
+
+            -> QC involves the "activities" and "techniques" used to monitor and evaluate 
+            the quality of the product or service being developed.
+
+            -> QC activities include testing of software components, 
+            validation against requirements, reviews of deliverables. 
+
+            -> As a Manual & Automation Tester we are part of Quality Control
+
+    -> NOTE: 
+
+        -> QA focuses on "preventing" defects by improving processes and ensuring 
+        that quality is built into the product from the beginning.
+
+        -> QC focuses on "identifying" defects through testing and inspection, 
+        aiming to correct them before the product is released.
+
+
+    -> Start Testing 
+
+        -> Requirement -> Code -> Test 
+
+    -> Unit Testing 
+
+        -> Unit Testing means testing the "smallest testable piece of code" (a unit) 
+
+        -> In technical terms a unit means 
+
+            -> a method or
+            -> a function 
+
+        -> Requirement
+
+            -> Developers will not develop the software as a while 
+
+            -> Developers will divide the software into different modules / components,
+            which in turn gets divided into multiple tasks i.e methods / functions
+
+            -> As soon as coding is done, Developers perform Unit Testing 
+
+        -> Why Unit Testing 
+
+            -> Find Bugs in Early Stages Of Development 
+            -> Document Expected Behavior in Early Stages Of Development 
+
+        -> Unit Testing Techniques 
+
+            -> White Box Testing (Structural Testing) 
+
+                -> We use different techniques like 
+
+                    -> Statement/Path Coverage 
+                    -> Branch/Decision Coverage 
+                    -> Loop Coverage 
+
+            -> Statement/Path Coverage (Each Line/Statement)
+
+                -> Aimed to ensure that every possible path through the software's source code 
+                is executed at least once
+
+                -> The developer will write code, for example he has written some 100 lines of code
+                Statement/Path Coverage Test means testing each and line of code at least once 
+
+                    print(Welcome To testing class)
+                    print(Unit Testing)
+                    print(Unit Testing Techniques)
+
+            -> Branch/Decision/Conditional Coverage (Conditions)
+
+                -> Aims to ensure that every "conditional" statement in the program 
+                is executed with all possible outcomes at least once during the test process
+
+
+                    voting app 
+
+                    age = input(Enter You Age) # 21
+                    if age >=18:
+                        aadhar_id = input(Enter You AADHAR ID) # 2029202303930
+                        if aadhar_id == "1029202303930":
+                            print("You Can Vote)
+                        else:
+                            print(You Cannot Vote Invalid ID) 
+                    else:
+                    print(You Cannot Vote Underage) 
+
+            -> Loop Coverage (Repeated Actions)
+
+                -> Loop Coverage is dedicated to thoroughly testing the behavior of 
+                loop constructs (for, while, do-while) within the application. 
+                Loops are used to do repeated actions (Everyday at 12 AM run backup for next month)
+                This includes examining loops under various conditions.
+
+                while date != "30-3-2026":
+                    print(Taking Backup)
