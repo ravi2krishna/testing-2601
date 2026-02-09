@@ -587,3 +587,45 @@ Application / Myntra (Ecommerce)
 
                 while date != "30-3-2026":
                     print(Taking Backup)
+
+9th Feb 2026
+==============
+
+    -> Widely Used Unit Testing Frameworks 
+
+        -> Junit (Java)
+
+            -> A Widely used Framework for Writing and Runnings Tets In Java 
+
+        -> Nunit (.NET)
+
+            -> A Widely used Framework for Writing and Runnings Tets In .NET 
+
+        -> Pytest (Python) 
+
+            -> A Widely used Framework for Writing and Runnings Tets In Python 
+
+
+    -> NOTE: Unit Testing Code Base - https://github.com/ravi2krishna/JavaCalculator.git
+
+        -> GitHub is a proprietary developer platform that allows developers to 
+        create, store, manage, and share their "code".
+
+        -> We can use "mvn test" to perform unit testing 
+
+
+    -> White Box Testing Technique
+
+        -> SonarQube is a leading open-source platform for continuous inspection of code quality 
+        and security, enabling developers to detect bugs, vulnerabilities, and code smells in 
+        real-time. 
+        
+        -> It supports over 30 programming languages, integrates with CI/CD pipelines 
+        (e.g., Jenkins, GitHub Actions), and uses quality gates to prevent buggy code 
+        from reaching production. 
+
+        -> https://getdx.com/img/optimized/X5yv6FwhKz-3564.webp?_cchid=f850718413d94ef4f2f25cef6c3a56fb
+
+        -> https://github.com/ravi2krishna/lms-v1.git 
+
+        
