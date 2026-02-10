@@ -629,3 +629,114 @@ Application / Myntra (Ecommerce)
         -> https://github.com/ravi2krishna/lms-v1.git 
 
         
+10th Feb 2026
+==============
+
+    -> Integration Testing 
+
+        -> Integration Testing is a level of software testing where 
+        individual units or components are combined and tested as a group. 
+
+        -> Integration Testing is performed after unit testing.
+
+        -> The purpose is to identify defects in the "interactions" between integrated units. 
+
+        -> Integration testing ensures that combined units function correctly together and 
+        uncover issues related to "interface mismatches", "data flow", and communication between 
+        modules.
+
+        -> Focus is not on individual Features 
+
+        -> Focus is on interaction / data flow between modules 
+
+    
+    -> Most Popular Applications
+        
+        -> https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
+
+    -> LMS Application 
+
+        -> Frontend Module 
+        -> Backend Module 
+        -> Database Module 
+
+    -> For Above Application Integration Test Checks can include 
+
+        -> UI Sends correct request to API 
+        -> API Fetches Data from Database 
+        -> API Send correct response to UI 
+
+    -> UI -> API -> DB -> API -> UI 
+
+    -> NOTE: if any link breaks, Integration test failed 
+
+    -> Integration Testing Types 
+
+        -> Incremental Integration Testing
+
+        -> Non-Incremental Integration Testing (Big bang)
+
+    -> Incremental Integration Testing
+
+        -> Incremental integration testing involves developing and testing modules one by one, 
+        rather than all at once.
+
+            -> Module 1 -> Module 2 -> Module 3 -> Module 4
+
+                -> https://bugspotter.in/wp-content/uploads/2025/02/Incremental-Integration-Testing-1024x700.webp
+
+        -> Top-Down Integration Testing
+
+            -> Testing starts from the top of the module hierarchy and progresses downward. 
+            Higher-level modules are tested first, followed by lower-level modules.
+
+                -> https://www.guru99.com/images/top-down-integration-testing.png
+
+            -> Stubs: Temporary modules that simulate the behavior of lower-level modules that are 
+            not yet integrated.
+
+                -> https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAja2rE8QvYohXNT5NvoyxOsNQ3MeHTuHlcQ&s
+
+            -> UI -> API (Real) -> DB (Stub)
+
+        -> Bottom-Up Integration Testing
+
+            -> Testing starts from the lower level modules hierarchy and progresses upwards. 
+            Lower-level modules are tested first, followed by top-level modules.
+
+                -> https://www.guru99.com/images/bottom-up-integration-testing.png
+
+            -> Drivers: Temporary modules that simulate the behavior of higher-level modules that are 
+            not yet integrated.
+
+                -> https://techdifferences.com/wp-content/uploads/2018/10/Top-down-vs-bottom-up-integration-testing.jpg
+
+            -> DB -> API (Real) -> UI (Driver)
+
+    
+    -> Integration Testing For an Ecommerce Application
+
+        -> Modules
+
+            -> Cart 
+            -> Payments 
+            -> Orders 
+            -> Inventory  
+            -> Notifications 
+
+        -> Test Scenarios 
+
+            -> Cart Total -> Payment Amount Matches 
+            -> Payment Success -> Order Created 
+            -> Order Created -> Inventory reduced 
+            -> Order Success -> Email / SMS Triggered 
+
+    -> LMS Application Code 
+
+        -> https://vfunction.com/wp-content/uploads/2024/05/blog-3-tier-application.webp
+
+        -> Every Database Has Address, Username & Password 
+
+            -> 172.17.0.2 - postgres - Login@123 
+    
+        -> 
