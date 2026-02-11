@@ -739,4 +739,171 @@ Application / Myntra (Ecommerce)
 
             -> 172.17.0.2 - postgres - Login@123 
     
-        -> 
+
+11th Feb 2026
+==============
+
+    -> System Testing 
+
+        -> System Testing is a level of software testing where the "complete" and 
+        "integrated" software application is tested. 
+
+    -> System testing involves verifying both the "functional" and "non-functional" 
+    requirements of the software, ensuring that the system as a whole behaves 
+    as expected.
+
+    -> After Completion Of Unit Testing & Integration Testing, we perform System Testing 
+
+        -> Functional Testing 
+
+            -> Functional testing focuses on the "functionality" of different features. 
+            For example, in an "e-commerce" application, we test 
+                -> whether products are displayed correctly, 
+                -> if the search function works, 
+                -> if products can be added to the cart, 
+                -> if payments can be made, and 
+                -> if ordered products appear in the order list. 
+                
+                Each application has its own set of functionalities that need to 
+                be tested accordingly.
+
+        -> Non-Functional Testing 
+
+            -> Non-functional testing begins once the application's functionality is stable. 
+
+            -> Non-functional testing includes 
+                -> performance testing to assess the application's response time, 
+                -> security testing to ensure the application's safety, 
+                -> recovery testing, 
+                -> load testing, stress testing, and compatibility testing. 
+                
+            -> These are different types of testing we conduct under non-functional testing.
+
+    -> NOTE: System testing is entirely up to QA Team (Manual Tester)
+
+    -> GUI Testing 
+
+        -> GUI (Graphical User Interface) Testing involves verifying all "visual elements" 
+        of an application to ensure they function correctly and appear as intended. 
+
+        -> It focuses on aspects that users interact with directly, 
+        such as buttons, icons, menus, and any other graphical elements.
+
+        -> Visual Design Verification
+
+            -> Layout and Alignment: Ensuring that all elements are properly aligned and 
+            follow the design specifications.
+
+            -> Colours and Fonts: Verifying that colours, fonts, and font sizes are 
+            consistent with the design guidelines.
+
+            -> Images and Icons: Checking that images and icons are displayed correctly 
+            and are not distorted.
+
+        -> Functional Elements Verification
+
+            -> Buttons: Ensuring all buttons perform their intended actions and are 
+            responsive when clicked.
+
+            -> Input Fields: Verifying that input fields accept and 
+            process user input correctly.
+            
+            -> Dropdowns and Checkboxes: Checking that dropdown menus and checkboxes 
+            function as expected and reflect the correct options and states.
+
+        -> Content Verification
+
+            -> Text Content: Ensuring that all text is free of spelling and grammatical 
+            errors and is displayed correctly.
+
+            -> Labels and Messages: Verifying that labels, tooltips, and 
+            error messages are appropriate and correctly positioned.
+
+        -> Interaction Elements Verification 
+
+            -> Navigation Menus: Ensuring that navigation menus are working correctly 
+            and lead to the appropriate pages.
+
+            -> Links: Verifying that all hyperlinks are functional and 
+            direct users to the correct destinations.
+
+            -> Forms: Checking that forms can be submitted and that the data is processed 
+            correctly.
+
+    -> Useability Testing 
+
+        -> Usability testing is a method used to assess how easily 
+        real users can navigate and interact with a website or application.
+
+        -> This testing focuses on understanding how easy and user-friendly a 
+        software application is build 
+
+        -> The goal is to identify any "usability issues" and determine the overall 
+        user satisfaction with the software application.
+
+    -> Object Properties Testing 
+
+        -> Input Box: An input box can have properties such as being enabled or disabled. 
+        If you want to enter data in the input box, it should be enabled. 
+        Sometimes, you might see an input box that is present but 
+        you cannot enter any data into it because it is disabled.
+
+        -> Dropdown Element: A drop down should contain multiple options, 
+        but typically you can select only one option at a time. 
+        In some cases, such as with a multi-select dropdown, 
+        you can select multiple options.
+
+        -> Link: Before clicking on a link, it should be in one colour (e.g., blue). 
+        After clicking, it should change to another colour.
+
+        -> Radio Button: Consider two radio buttons for selecting gender (male and female). 
+        You can select only one at a time. If you select the male button, 
+        the female button will be unselected and vice versa.
+
+    -> Error Handling Testing 
+
+        -> Error handling testing ensures that an application correctly handles errors, 
+        providing appropriate feedback and maintaining functionality when 
+        encountering unexpected conditions or invalid input. 
+
+    -> Calculations Testing 
+
+        -> Calculation testing involves verifying the correctness and accuracy of 
+        mathematical operations performed by the application. 
+
+        -> Arithmetic Operations: Addition, subtraction, multiplication, and division.
+        -> Financial Calculations: Interest calculations, tax computations, discounts, and total amounts.
+        -> Data Processing: Aggregation, averages, percentages, and other statistical operations.
+
+    -> Link Testing 
+
+        -> Links testing is an essential part of "web application" testing 
+        that ensures all hyperlinks on a website or web application function correctly. 
+
+        -> Internal Links: Links that point to other pages within the same website.
+        -> External Links: Links that point to pages on different websites.
+        -> Anchor Links: Links that point to specific sections within the same page.
+        -> Email Links: Links that open an email client with a pre-filled recipient address.
+        -> Phone Links: Links that open an call option with prefilled phone number 
+
+    -> Cookie Testing 
+
+        -> Cookies are small pieces of data stored on the user's(client) browser 
+        by the web application. 
+
+        -> They are used for Auto fill form, passwords, email fields etc
+
+    -> Session Testing 
+
+        -> Sessions store user data on the "server" for the 
+        duration of the user's interaction with the web application.
+
+        -> In banking applications, session timeouts are particularly important due to the sensitivity of the data.
+
+            -> Login Process 
+            -> Inactivity
+            
+
+
+
+
