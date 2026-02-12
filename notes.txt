@@ -904,6 +904,145 @@ Application / Myntra (Ecommerce)
             -> Inactivity
             
 
+12th Feb 2026
+==============
+
+    -> Non-Functional Testing 
+
+        -> Non-functional testing is a type of software testing that focuses on 
+        the non-functional aspects of an application, such as 
+        performance, reliability, and scalability. 
+
+        -> Unlike functional testing, which verifies "what the system does", 
+        non-functional testing examines "how the system performs".
 
 
+        -> Performance Testing 
 
+            -> Performance Testing is a type of software testing that ensures a 
+            software application performs well under expected workload.
+
+            -> Load Testing 
+
+                -> Load testing evaluates how well an application performs under expected load 
+                conditions, such as when 100 or 1000 users access it simultaneously. 
+
+                    -> Simulating Expected Load: Create virtual users to mimic real 
+                    user interactions based on customer requirements (e.g., 100 concurrent users).
+
+                    -> Using Tools: Utilize performance testing tools like "LoadRunner" and "JMeter" 
+                    to create virtual users and simulate load without needing physical setups.
+
+            -> Stress Testing 
+
+                -> Stress Testing: Determines the system's behavior under 
+                extreme conditions, beyond its expected capacity.
+
+                -> Objective: Determine the "breaking point" of the application by 
+                testing beyond the expected load.
+
+                -> Gradually increase users from 100 to 120, 150, 200, etc., to see 
+                where the application fails.
+
+                -> Stress Tool 
+
+            -> Spike Testing 
+
+                -> Spike Testing: Tests the system’s response to sudden, significant increases in load.
+
+                -> We evaluate how a software system reacts to sudden and extreme 
+                increases or decreases in load. 
+
+                -> Simulate Sudden Load Increase: Increase the load suddenly. 
+                For example, if the normal load is 100 users, jump to 2000 users instantly.
+
+                -> Zigzag Pattern: Increase and decrease the load rapidly, 
+                such as from 100 to 2000 users, then down to 50 users.
+
+            -> Soak / Endurance Testing 
+
+                -> Checks the system’s stability and performance over an extended time period.
+
+                -> Set Up Expected Load: For example, if a customer expects 100 concurrent users, 
+                create that environment.
+                
+                -> Monitor Over Time: Test how long the application can handle the expected load 
+                such as half a day, one day, two days, one week, or one month.
+
+            -> Volume Testing 
+
+                -> Volume testing assesses how much data the application's database can handle 
+                and its performance under large data volumes.
+
+                -> Insert Large Data Volumes: For example, simulate millions of records 
+                being inserted by multiple users.
+
+                -> Monitor Database Performance: Check if the database can handle the data size and 
+                if the application remains stable.
+
+                -> Assess Application and Database Stability: Ensure the database does not crash and 
+                the application does not break under the data load.
+
+            -> Scalability Testing 
+
+                -> Measures an application's ability to handle increased loads without compromising performance. 
+
+                -> The goal is to determine how well the system scales with an increasing 
+                number of users, transactions, or data volume. It ensures that the system can 
+                handle growth efficiently and helps identify potential bottlenecks.
+
+        -> Security Testing 
+
+            -> Security Testing is a type of software testing that identifies vulnerabilities, 
+            threats, and risks in a software application and helps prevent malicious attacks.
+
+            -> The purpose of security testing is to ensure that software systems are free 
+            from any loopholes that might cause a significant loss of information, revenue, or reputation.
+
+            -> Authentication: Validates if users are legitimate and can access the application.
+
+            -> Authorization: Checks if authenticated users have the correct access privileges.
+
+            -> Encryption: Data, especially sensitive information like passwords, should be 
+            encrypted during transmission and decrypted upon reaching the server.
+
+            -> Encryption converts data into an unreadable format; 
+            decryption converts it back to readable format.
+            
+            -> Proper encryption and decryption are crucial for secure data transmission.
+
+                -> http://httpforever.com (No Encryption)
+
+                -> https://www.flipkart.com/ (Encryption)
+
+                -> HTTP (HyperText Transfer Protocol): Data is transmitted in plaintext, 
+                making it vulnerable to interception.
+                
+                -> HTTPS (HTTP Secure): Data is encrypted, providing a secure, trusted connection.
+
+        
+        -> Recovery Testing 
+
+            -> Recovery Testing ensures a software application can recover from crashes, 
+            hardware failures, or other catastrophic problems(datacenter level failures). 
+
+            -> The primary objective of recovery testing is to verify that the system can resume 
+            its operations and recover data without any loss after encountering 
+            unexpected interruptions or failures.
+
+            -> In terms of Database, we have Primary Database and Secondary Replica Database,
+            When issues occur, a failover should happen i.e Application Should Point 
+            To Secondary Replica Database
+
+
+        -> Compatibility Testing 
+
+            -> Verifies whether a software application performs as expected across 
+            different environments, including various devices, different operating systems, 
+            different browsers, network environments, and hardware configurations.
+
+            -> Operating System Compatibility: Verifies the software's compatibility with various 
+            operating systems (e.g., Windows, macOS, Linux, Android, iOS).
+
+            -> Browser Compatibility: Ensures the software performs consistently across
+            different web browsers (e.g., Chrome, Firefox, Safari, Edge).
