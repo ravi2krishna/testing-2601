@@ -1046,3 +1046,235 @@ Application / Myntra (Ecommerce)
 
             -> Browser Compatibility: Ensures the software performs consistently across
             different web browsers (e.g., Chrome, Firefox, Safari, Edge).
+
+
+16th Feb 2026
+==============
+
+    -> Smoke Testing 
+
+        -> Smoke Testing, often referred to as "Build Verification Testing" or "Confidence Testing"
+
+        -> Type of software testing that is performed to ascertain that 
+        the critical functionalities of a program are working correctly. 
+
+        -> It is a quick test run to check the basic functionalities of the application 
+        after a new build is received.
+
+    
+    -> Sanity Testing 
+
+        -> Sanity Testing is focused on verifying specific functionalities or bug fixes to 
+        ensure they work as expected after minor changes or updates in the code. 
+
+
+    -> Regression Testing 
+
+        -> Regression Testing is a type of software testing that ensures that recent code changes 
+        have not adversely affected existing functionalities of the software. 
+
+        -> Its primary goal is to verify that the software continues to perform correctly 
+        after modifications such as bug fixes, enhancements, or other changes.
+
+    -> NOTE: https://cms-cdn.katalon.com/B_Testing_Process_0872293398.png
+
+
+    -> Software Testing / Application Testing 
+
+        -> Unit Testing 
+
+        -> Integration Testing 
+
+        -> System Testing 
+
+            -> Functional Testing 
+
+            -> Non-Functional Testing 
+
+        -> Acceptance Testing 
+
+    
+    -> Acceptance Testing / User Acceptance Testing (UAT)
+
+        -> User Acceptance Testing (UAT) is the "final phase" of the software testing process 
+        where the software is tested in the "real-world environment" by the "intended users" 
+        to ensure it meets their requirements and works as expected. 
+
+        -> UAT is crucial because it provides the opportunity to validate the software from the 
+        end-user's perspective before it goes live.
+
+        -> Objectives:
+            
+            -> To ensure the software meets business requirements and user needs.
+            
+            -> To verify that the software performs correctly in real-world scenarios.
+
+        -> Participants:
+            
+            -> End Users: The actual users who will be using the software in their daily operations.
+
+            -> Business Analysts: Individuals who understand the business requirements and 
+            can verify that the software meets these requirements.
+
+            -> Stakeholders: Other stakeholders such as project managers, product owners, and 
+            client representatives.
+
+        -> Types Of UAT Testing 
+
+            -> Alpha Testing:
+
+                -> Conducted by internal staff and stakeholders in a controlled environment.
+                Focuses on identifying any last-minute issues before the 
+                software is released to a broader audience.
+
+            -> Beta Testing:
+
+                -> Conducted by a select group of end users in the real-world environment.
+                Provides valuable feedback from actual users and helps identify any 
+                final issues or improvements needed.
+
+
+    -> STLC 
+
+        -> Software Testing Life Cycle 
+
+            -> The Software Testing Life Cycle (STLC) is a systematic process of testing a 
+            software application to ensure its "quality".
+
+            -> STLC encompasses a series of phases or steps that are carried out 
+            sequentially to thoroughly evaluate and improve the software.
+
+        -> Phases Of STLC 
+
+            -> Requirement Analysis 
+
+            -> Test Planning 
+
+            -> Test Case Development
+
+            -> Test Environment Setup 
+
+            -> Test Execution 
+
+            -> Test Closure 
+
+
+    -> Test Scenarios & Test Cases (Manual Tester)
+
+        -> During the test development or test design phase, 
+        the primary reference documents include" use cases". 
+        
+        -> Use cases are essential because they clearly outline the "requirements", 
+        making it easier to create test scenarios and test cases. 
+
+    -> Use Case
+
+        -> A use case describes a specific requirement and includes three main elements: 
+        actor, action, and goal.
+
+            -> Actor: The user or entity interacting with the application. 
+            For instance, in an e-commerce application, the customer using the app is the actor.
+
+            -> Action: The steps the actor performs within the application. 
+            In the e-commerce example, actions include logging in, searching for products, 
+            adding items to the cart, and making a payment.
+
+            -> Goal: The desired outcome after the actions are completed. 
+            For the e-commerce scenario, the goal is the successful order of a product.
+
+    -> Test Scenario
+
+        -> A test scenario "outlines what needs to be tested", covering various areas to be tested.
+
+        -> Purpose: Test scenarios are derived from use cases and describe the 
+        different areas and functionalities that need to be tested. 
+        They help in identifying what to test in the application.
+
+        -> In the context of an e-commerce application, test scenarios could include testing the 
+        login functionality, product search, adding items to the cart, and payment processing.
+
+    -> Test Case 
+
+        -> A test case provides a "detailed step-by-step action plan" to be performed on 
+        the application or functionality.
+
+        -> Prerequisite: Conditions that must be met before executing the test case.
+        -> Steps: Detailed actions to be taken to perform the test.
+        -> Expected Result: The anticipated outcome of the test steps.
+        -> Priority: The importance of the test case, which can be high, medium, or low.
+
+        -> Purpose: Test cases are created based on test scenarios and provide a 
+        clear, actionable plan for testers to follow.
+
+        -> Example: For the login functionality test scenario, a test case would include 
+        steps to open application, steps to enter a username and password, 
+        click the login button, and check whether the user is successfully logged in.
+
+
+
+    -> Test Scenario & Test Case For Ecommerce Application
+
+        -> Test Scenario: successful purchase with valid credit card (PURCHASE-CC)
+
+            -> This scenario covers a happy path where the customer completes 
+            the purchase of product using credit card, without any issues. 
+
+        -> Test Case: PURCHASE-CC-TC-01
+
+            -> Pre-Conditions
+
+                -> User exists in the Ecommerce system with valid account 
+                -> User should be able to add product to cart 
+
+            -> Steps
+
+                -> Enter Valid CC Details 
+                    -> Card Name
+                    -> Card Number 
+                    -> Expiry date
+                    -> CVV 
+                    -> OTP Verification (Optional)
+
+            -> Priority
+
+                -> HIGH 
+
+            -> Expected Outout / Result
+
+                -> Order Confirmation should be displayed
+                -> Credit card should be charged
+                -> Order Status should be emailed to customer 
+            
+            -> Actual Outout / Result
+
+                -> Order Confirmation should be displayed - Success 
+                -> Credit card should be charged - Success 
+                -> Order Status should be emailed to customer -  Failed 
+
+        -> Test Case: PURCHASE-CC-TC-02
+
+            -> Purchase with invalid credit card 
+
+        -> Test Case: PURCHASE-CC-TC-03
+
+            -> Purchase with invalid account like guest account 
+
+
+    -> Test Case Contents 
+
+        -> Test Case ID 
+        -> Test Case Title 
+        -> Test Case Description 
+        -> Test Scenario ID 
+        -> Test Scenario Title 
+        -> Pre-Condition
+        -> Priority(High, Low) 
+        -> Steps / Actions 
+        -> Test Data 
+        -> Actual Result 
+        -> Expected Result 
+        -> Comments / Observations 
+
+    
+    
+
