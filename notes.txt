@@ -1271,10 +1271,19 @@ Application / Myntra (Ecommerce)
         -> Priority(High, Low) 
         -> Steps / Actions 
         -> Test Data 
-        -> Actual Result 
         -> Expected Result 
+        -> Actual Result 
         -> Comments / Observations 
 
     
-    
+17th Feb 2026
+==============
+
+    -> Writing Test Scenarios & Test Cases 
+
+        -> https://docs.google.com/spreadsheets/d/1iOaahqvlk5FxyjN7V-jtDoZSuyn5fnv_zLKIeZIp2gg/edit?usp=sharing
+
+        
+
+
 
