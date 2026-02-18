@@ -1284,6 +1284,15 @@ Application / Myntra (Ecommerce)
         -> https://docs.google.com/spreadsheets/d/1iOaahqvlk5FxyjN7V-jtDoZSuyn5fnv_zLKIeZIp2gg/edit?usp=sharing
 
         
+18th Feb 2026
+==============
+
+    -> Writing Test Cases Continued For CRM Project 
+
+        -> https://docs.google.com/spreadsheets/d/1iOaahqvlk5FxyjN7V-jtDoZSuyn5fnv_zLKIeZIp2gg/edit?usp=sharing
+
+        -> NOTE: Based on above document create remaining test cases and update in sheet 
+
 
 
 
